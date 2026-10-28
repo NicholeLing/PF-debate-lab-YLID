@@ -39,3 +39,4 @@ document.addEventListener('click',e=>{
 document.addEventListener('input',e=>{
   const f=e.target.dataset.impactField;if(!f)return;const d=impactDraft();d[f]=e.target.value;d.reviewed=false;save();document.getElementById('impact-feedback').innerHTML='';document.getElementById('impact-preview').hidden=true;updateNavChecks();
 });
+
