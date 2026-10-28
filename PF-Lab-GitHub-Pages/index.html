@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="PF Lab 辩论训练室。拆解逻辑、回应反驳，用清晰的论证赢得评判。">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#182c2a">
+  <title>PF Lab · 辩论训练室</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Crect width='60' height='60' rx='14' fill='%23182c2a'/%3E%3Ctext x='10' y='40' fill='%23d8ed9e' font-family='Arial' font-size='28' font-weight='700'%3EPF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=1.1">
+</head>
+<body>
+  <a class="skip" href="#main">跳到练习内容</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#constructive" aria-label="PF Lab 首页"><span class="brand-mark">PF<span>↗</span></span><span>PF Lab<small>辩论训练室</small></span></a>
+      <div class="course-label">YOUR PRACTICE SPACE</div>
+      <nav aria-label="训练模块">
+        <a href="#constructive" data-nav="constructive"><span class="nav-num">01</span><span>论证搭建<small>Constructive</small></span><span class="nav-check" data-check="constructive"></span></a>
+        <a href="#rebuttal" data-nav="rebuttal"><span class="nav-num">02</span><span>反驳训练<small>Rebuttal blocks</small></span><span class="nav-check" data-check="rebuttal"></span></a>
+        <a href="#peel" data-nav="peel"><span class="nav-num">03</span><span>PEEL 写作<small>Build your argument</small></span><span class="nav-check" data-check="peel"></span></a>
+        <a href="#impact" data-nav="impact"><span class="nav-num">04</span><span>影响比较<small>Impact &amp; weighing</small></span><span class="nav-check" data-check="impact"></span></a>
+        <a href="#quiz" data-nav="quiz"><span class="nav-num">05</span><span>理解小测<small>Check your thinking</small></span><span class="nav-check" data-check="quiz"></span></a>
+      </nav>
+      <div class="sidebar-note"><span class="mini-label">COACH’S NOTE</span><p>不要只说结论。<br>把中间的 <em>why</em><br>讲清楚。</p><span class="note-line"></span><small>Claim → Evidence → Analysis → Impact</small></div>
+      <div class="sidebar-bottom"><span class="lock-icon">↗</span><span>公开训练室<small>持链接即可访问</small></span><span class="version">v1.1</span></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="breadcrumb">训练空间 <span>/</span> <strong id="page-crumb">论证搭建</strong></div><div class="top-actions"><span id="save-status" role="status"><i></i> 本机自动保存</span><button class="text-button" id="export-btn">导出练习 <span aria-hidden="true">↗</span></button></div></header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="page-footer"><span>Think clearly. Clash directly.</span><span>PF Lab · 从“我认为”到“我证明”</span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <script src="impact.js?v=1.1"></script>
+  <script src="app.js?v=1.1"></script>
+</body>
+</html>
